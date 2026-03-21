@@ -53,7 +53,7 @@ public class Health : MonoBehaviour
 
         dieOnce = false;
 
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
         GetComponent<PlayerMove>().enabled = false;
 
         if (gameOver != null)

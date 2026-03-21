@@ -1,0 +1,314 @@
+fileFormatVersion: 2
+guid: caba484920ef40b47a62ad2341ce3089
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4860371652485379282
+    second: 26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_0
+  - first:
+      213: -4100137819205966916
+    second: 26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_1
+  - first:
+      213: 6755447135950553480
+    second: 26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_2
+  - first:
+      213: 1005541700238227577
+    second: 26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_3
+  - first:
+      213: -6959197047571694194
+    second: 26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_4
+  - first:
+      213: 6600954294922357294
+    second: 26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_5
+  - first:
+      213: -1106034577649321825
+    second: 26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 44
+        width: 144
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ed7df75f7c0a64c889915a44cf105e
+      internalID: 559615733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 44
+        width: 129
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6517cff00f4f0c9478d82187fb524ed2
+      internalID: 1339960866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 44
+        width: 114
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e80c7daafe2ca4fa841807786e61f6
+      internalID: -1407159105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 44
+        width: 107
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606bcd4bc8ef8304aa197ed0be9e8f49
+      internalID: 46974043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 44
+        width: 106
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bb06c95a88e514cb5884820a6d2914
+      internalID: 649880694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 44
+        width: 107
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1c9fa3deef3854295fc98086b07b16
+      internalID: 220210623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 44
+        width: 106
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66816ad3c7227145ac4f284cb0fa0c7
+      internalID: 341734744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 21f3d009726f0e946b1e667e5632c1e6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_0: 559615733
+      26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_1: 1339960866
+      26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_2: -1407159105
+      26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_3: 46974043
+      26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_4: 649880694
+      26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_5: 220210623
+      26167742-desenho-animado-aberto-porta-movimento-animacao-sprite-folha-vetor__1_-removebg-preview_6: 341734744
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

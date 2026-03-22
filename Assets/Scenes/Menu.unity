@@ -1067,7 +1067,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10, y: 71}
+  m_AnchoredPosition: {x: 5.7, y: 107.4}
   m_SizeDelta: {x: 263.0535, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &676667034
@@ -1091,8 +1091,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Voc\xEA chegou no carnaval!\nMas onde est\xE3o suas amigas?\n\nEncontre
-    elas no meio da multid\xE3o para seguir pro pr\xF3ximo n\xEDvel!\n\nA La Ursa
-    quer dinheiro, quem n\xE3o d\xE1 \xE9 pirangueiro, n\xE3o deixe ela te pegar!\n"
+    elas no meio da multid\xE3o para seguir pro pr\xF3ximo n\xEDvel!\n\nMovimente
+    a personagem principal com as teclas A, W, S, D\n\nA La Ursa quer dinheiro, quem
+    n\xE3o d\xE1 \xE9 pirangueiro, n\xE3o deixe ela te pegar!\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e7074fac7aed5e64da02aa110473230d, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: e7074fac7aed5e64da02aa110473230d, type: 2}

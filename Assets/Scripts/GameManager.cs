@@ -6,6 +6,8 @@ public class GameManager : MonoBehaviour
 
     public int contadorMeninas = 0;
 
+    public Transform alvo;
+
     void Awake()
     {
         if (instance == null)

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SeguirPlayer : MonoBehaviour
 {
-    public Transform alvo;
+    public Transform meuAlvo;
     public float speed = 3f;
     public float distanciaMinima = 1f;
 
@@ -11,6 +11,9 @@ public class SeguirPlayer : MonoBehaviour
 
     private Animator anim;
     private SpriteRenderer sprite;
+
+    public GameObject GameManagerObject;
+
 
     private Vector2 ultimaDirecao = Vector2.down;
 
@@ -22,9 +25,9 @@ public class SeguirPlayer : MonoBehaviour
 
     void Update()
     {
-        if (following && alvo != null)
+        if (following && meuAlvo != null)
         {
-            Vector2 diferenca = alvo.position - transform.position;
+            Vector2 diferenca = meuAlvo.position - transform.position;
             float distancia = diferenca.magnitude;
 
             if (distancia > distanciaMinima)
@@ -33,7 +36,7 @@ public class SeguirPlayer : MonoBehaviour
 
                 transform.position = Vector2.MoveTowards(
                     transform.position,
-                    alvo.position,
+                    meuAlvo.position,
                     speed * Time.deltaTime
                 );
 
@@ -73,12 +76,13 @@ public class SeguirPlayer : MonoBehaviour
         if (other.CompareTag("Player") && !jaContado)
         {
             following = true;
-            GameManager.instance.contadorMeninas++;
+            GameManagerObject.GetComponent<GameManager>().contadorMeninas++;
             jaContado = true;
+            meuAlvo = GameManagerObject.GetComponent<GameManager>().alvo;
+            GameManagerObject.GetComponent<GameManager>().alvo = transform;
+            Debug.Log("Meninas: " + GameManagerObject.GetComponent<GameManager>().contadorMeninas);
 
-            Debug.Log("Meninas: " + GameManager.instance.contadorMeninas);
-
-            if (GameManager.instance.contadorMeninas >= 3)
+            if (GameManagerObject.GetComponent<GameManager>().contadorMeninas >= 3)
             {
                 DestruirPortas();
             }

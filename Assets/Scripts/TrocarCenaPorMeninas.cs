@@ -23,9 +23,9 @@ public class TrocarCenaPorMeninas : MonoBehaviour
                 Debug.Log("Você ainda não tem meninas suficientes!");
             }
         }
-    }
+    }   
 
-    void TrocarCena()
+    public void TrocarCena()
     {
         SceneManager.LoadScene(nomeDaCena);
     }

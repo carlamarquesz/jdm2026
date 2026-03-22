@@ -1088,7 +1088,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1874,6 +1874,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas-Superior
       objectReference: {fileID: 0}
+    - target: {fileID: 1974335601592512575, guid: ef6e5e79379820349a32616b83c90d6e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 341.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1974335601592512575, guid: ef6e5e79379820349a32616b83c90d6e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 135.99997
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295655257510858289, guid: ef6e5e79379820349a32616b83c90d6e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 307.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2295655257510858289, guid: ef6e5e79379820349a32616b83c90d6e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 135.99997
+      objectReference: {fileID: 0}
+    - target: {fileID: 3077013548571156362, guid: ef6e5e79379820349a32616b83c90d6e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -339
+      objectReference: {fileID: 0}
+    - target: {fileID: 3077013548571156362, guid: ef6e5e79379820349a32616b83c90d6e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 136
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801773012241474328, guid: ef6e5e79379820349a32616b83c90d6e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -281.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801773012241474328, guid: ef6e5e79379820349a32616b83c90d6e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 135.99994
+      objectReference: {fileID: 0}
     - target: {fileID: 5033862519613703822, guid: ef6e5e79379820349a32616b83c90d6e, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1953,6 +1985,22 @@ PrefabInstance:
     - target: {fileID: 5033862519613703822, guid: ef6e5e79379820349a32616b83c90d6e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210320526469776664, guid: ef6e5e79379820349a32616b83c90d6e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 307.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210320526469776664, guid: ef6e5e79379820349a32616b83c90d6e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 135.99997
+      objectReference: {fileID: 0}
+    - target: {fileID: 9019433085111380137, guid: ef6e5e79379820349a32616b83c90d6e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -309.30002
+      objectReference: {fileID: 0}
+    - target: {fileID: 9019433085111380137, guid: ef6e5e79379820349a32616b83c90d6e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 135.99994
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3038,7 +3086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meninasNecessarias: 3
-  nomeDaCena: 
+  nomeDaCena: Cenario4
   delay: 1
 --- !u!61 &1593857976
 BoxCollider2D:

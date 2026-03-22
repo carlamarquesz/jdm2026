@@ -20,15 +20,15 @@ public class PortaLiberada : MonoBehaviour
     {
         if (other.CompareTag("Player") && !abriu)
         {
-            if (SeguirPlayer.contadorMeninas >= meninasNecessarias)
-            {
-                abriu = true;
-                StartCoroutine(AbrirPortaETrocarCena());
-            }
-            else
-            {
-                Debug.Log("Ainda falta encontrar amigas");
-            }
+            //if (SeguirPlayer.contadorMeninas >= meninasNecessarias)
+            //{
+            //    abriu = true;
+            //    StartCoroutine(AbrirPortaETrocarCena());
+            //}
+            //else
+            //{
+            //    Debug.Log("Ainda falta encontrar amigas");
+            //}
         }
     }
 

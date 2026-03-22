@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 7934735386860647526}
   - component: {fileID: 3160646867845650299}
   - component: {fileID: 1929555442520281225}
-  - component: {fileID: 7510486684138440299}
+  - component: {fileID: 3445064904062332706}
+  - component: {fileID: 6770726369482199792}
   m_Layer: 0
   m_Name: amiga2
   m_TagString: Untagged
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 4724337696568791789}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.4, y: 3.42, z: 10}
+  m_LocalPosition: {x: -2.57, y: -3.41, z: 10}
   m_LocalScale: {x: 0.04, y: 0.04, z: 0.04}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -125,7 +126,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.11508274, y: -2.6922536}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -135,7 +136,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 24.907248, y: 6.384507}
   m_EdgeRadius: 0
 --- !u!50 &3160646867845650299
 Rigidbody2D:
@@ -179,8 +180,30 @@ MonoBehaviour:
   alvo: {fileID: 0}
   speed: 3
   distanciaMinima: 1.5
---- !u!61 &7510486684138440299
-BoxCollider2D:
+--- !u!95 &3445064904062332706
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4724337696568791789}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3acc7b175fad45a419a38b6b7bd6c3ee, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!60 &6770726369482199792
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -223,5 +246,45 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 8.062265, y: -6.4758244}
+      - {x: 7.9646087, y: -6.378168}
+      - {x: 7.1833587, y: -4.425043}
+      - {x: 9.038828, y: -1.5441835}
+      - {x: 9.038828, y: 5.5847225}
+      - {x: 8.99, y: 5.6335506}
+      - {x: 8.062265, y: 8.51441}
+      - {x: 7.67164, y: 11.883551}
+      - {x: 5.8649993, y: 13.592535}
+      - {x: 3.8630464, y: 13.592535}
+      - {x: 3.9118745, y: 11.541754}
+      - {x: 4.0095305, y: 11.4440975}
+      - {x: 2.9841402, y: 11.63941}
+      - {x: -2.972891, y: 11.63941}
+      - {x: -3.0705473, y: 11.541754}
+      - {x: -3.9494536, y: 13.543707}
+      - {x: -3.9982817, y: 13.592535}
+      - {x: -5.0236726, y: 13.592535}
+      - {x: -5.0725007, y: 13.543707}
+      - {x: -6.049063, y: 12.713629}
+      - {x: -7.074454, y: 11.737066}
+      - {x: -9.027578, y: 6.6589413}
+      - {x: -9.027578, y: -1.6906679}
+      - {x: -7.17211, y: -3.5461366}
+      - {x: -8.099844, y: -6.4758244}
+      - {x: -8.1975, y: -9.503168}
+      - {x: -5.218985, y: -12.676996}
+      - {x: -4.2424226, y: -13.507074}
+      - {x: 4.253671, y: -13.507074}
+      - {x: 5.0837493, y: -12.432856}
+      - {x: 8.062265, y: -9.45434}
+    - - {x: -5.902579, y: -2.569574}
+      - {x: -5.121329, y: -2.569574}
+      - {x: -5.121329, y: -3.301996}
+      - {x: -5.902579, y: -3.301996}
+    - - {x: 5.1325774, y: -2.569574}
+      - {x: 5.8649993, y: -2.569574}
+      - {x: 5.8649993, y: -3.301996}
+      - {x: 5.1325774, y: -3.301996}
+  m_UseDelaunayMesh: 0

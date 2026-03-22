@@ -12,6 +12,7 @@ public class Health : MonoBehaviour
 
     [Header("Configuração")]
     [SerializeField] private float damageCooldown = 0.3f;
+    [SerializeField] private GameObject[] moedas;
 
     private Rigidbody2D rb;
     private bool dieOnce = true;
@@ -34,6 +35,8 @@ public class Health : MonoBehaviour
         StartCoroutine(DamageCooldown());
 
         life--;
+        AtualizarMoedas();
+
 
         if (life <= 0)
         {
@@ -62,5 +65,19 @@ public class Health : MonoBehaviour
         }
 
         Time.timeScale = 0f;
+    }
+    void AtualizarMoedas()
+    {
+        for (int i = 0; i < moedas.Length; i++)
+        {
+            if (i < life)
+            {
+                moedas[i].SetActive(true); 
+            }
+            else
+            {
+                moedas[i].SetActive(false); 
+            }
+        }
     }
 }

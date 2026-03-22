@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: cd1b970ca0c30e64689e0764f8b216d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3249232945621974172
+    second: PROTAGONISTA 1_0
+  - first:
+      213: 479606443355055065
+    second: PROTAGONISTA 1_1
+  - first:
+      213: 309427011947732376
+    second: PROTAGONISTA 1_2
+  - first:
+      213: 1636774878366411986
+    second: PROTAGONISTA 1_3
+  - first:
+      213: 7729167361738850392
+    second: PROTAGONISTA 1_4
+  - first:
+      213: 2295141855770835236
+    second: PROTAGONISTA 1_5
+  - first:
+      213: -8490822678644016013
+    second: PROTAGONISTA 1_6
+  - first:
+      213: -7276681424599786471
+    second: PROTAGONISTA 1_7
+  - first:
+      213: 8264196747951680589
+    second: PROTAGONISTA 1_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PROTAGONISTA 1_0
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 6049
+        width: 902
+        height: 1352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c3b4c1628971d20800000000000000
+      internalID: 3249232945621974172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTAGONISTA 1_1
+      rect:
+        serializedVersion: 2
+        x: 4449
+        y: 6049
+        width: 902
+        height: 1352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3aa28e487e7a600800000000000000
+      internalID: 479606443355055065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTAGONISTA 1_2
+      rect:
+        serializedVersion: 2
+        x: 6699
+        y: 5949
+        width: 902
+        height: 1402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d1e0b5a3e4b4400800000000000000
+      internalID: 309427011947732376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTAGONISTA 1_3
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 3799
+        width: 902
+        height: 1302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc2052741ef6b610800000000000000
+      internalID: 1636774878366411986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTAGONISTA 1_4
+      rect:
+        serializedVersion: 2
+        x: 4499
+        y: 3799
+        width: 902
+        height: 1302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850ccfdb3c4834b60800000000000000
+      internalID: 7729167361738850392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTAGONISTA 1_5
+      rect:
+        serializedVersion: 2
+        x: 6749
+        y: 3699
+        width: 902
+        height: 1352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429f95e8b5bf9df10800000000000000
+      internalID: 2295141855770835236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTAGONISTA 1_6
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 1499
+        width: 1102
+        height: 1452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37cb79492c98a2a80800000000000000
+      internalID: -8490822678644016013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTAGONISTA 1_7
+      rect:
+        serializedVersion: 2
+        x: 4449
+        y: 1549
+        width: 1102
+        height: 1402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91cdb0f3cc8040b90800000000000000
+      internalID: -7276681424599786471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PROTAGONISTA 1_8
+      rect:
+        serializedVersion: 2
+        x: 6749
+        y: 1499
+        width: 1102
+        height: 1452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c299b182350b270800000000000000
+      internalID: 8264196747951680589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PROTAGONISTA 1_0: 3249232945621974172
+      PROTAGONISTA 1_1: 479606443355055065
+      PROTAGONISTA 1_2: 309427011947732376
+      PROTAGONISTA 1_3: 1636774878366411986
+      PROTAGONISTA 1_4: 7729167361738850392
+      PROTAGONISTA 1_5: 2295141855770835236
+      PROTAGONISTA 1_6: -8490822678644016013
+      PROTAGONISTA 1_7: -7276681424599786471
+      PROTAGONISTA 1_8: 8264196747951680589
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -8,6 +8,8 @@ public class TrocarCenaPorMeninas : MonoBehaviour
     public float delay = 1f;
 
     private bool jaTrocou = false;
+    public GameObject canvasUI; 
+
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -16,6 +18,10 @@ public class TrocarCenaPorMeninas : MonoBehaviour
             if (GameManager.instance.contadorMeninas >= meninasNecessarias)
             {
                 jaTrocou = true;
+                if (canvasUI != null)
+                {
+                    canvasUI.SetActive(true); 
+                }
                 Invoke(nameof(TrocarCena), delay);
             }
             else

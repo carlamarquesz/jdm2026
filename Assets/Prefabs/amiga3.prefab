@@ -177,9 +177,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d711d4a27545154080e79c8a10731e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alvo: {fileID: 0}
+  meuAlvo: {fileID: 0}
   speed: 3
   distanciaMinima: 1.5
+  GameManagerObject: {fileID: 0}
 --- !u!95 &1633983543801119992
 Animator:
   serializedVersion: 7

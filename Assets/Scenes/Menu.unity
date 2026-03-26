@@ -345,6 +345,7 @@ MonoBehaviour:
   meninasNecessarias: 0
   nomeDaCena: Cenario1
   delay: 0
+  canvasUI: {fileID: 0}
 --- !u!1 &331447591
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,7 +518,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: -68}
+  m_AnchoredPosition: {x: 2, y: -82.1}
   m_SizeDelta: {x: 174, y: 44}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &363057403
@@ -1033,6 +1034,7 @@ MonoBehaviour:
   meninasNecessarias: 3
   nomeDaCena: Cenario1
   delay: 1
+  canvasUI: {fileID: 0}
 --- !u!1 &676667032
 GameObject:
   m_ObjectHideFlags: 0
